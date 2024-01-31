@@ -1,0 +1,11 @@
+---
+title: "PSEM"
+author: "Laurel Wellman"
+date: "2024-01-31"
+output: 
+  html_document: 
+    theme: yeti
+---
+
+This is a document with a PSEM example from John M. Wallace
+

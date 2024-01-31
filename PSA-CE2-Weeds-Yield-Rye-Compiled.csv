@@ -1,0 +1,121 @@
+Year,Crop,CropYear,Cover,Trt,CC,DPP,CC.win,Timing,Split,Herb,Plot,Obs_ID,Block,YieldData,YieldBuac,Rye.kgha,WeedUnit,UTC.tot.density.rep,UTC.tot.density.siteyear,AMACH_density,CHEAL_density,ERICA_density,BL_density,GRASS_density,SEDGE_density,Total_density,AMACH_biomass(g),CHEAL_biomass(g),ERICA_biomass(g),BL_biomass(g),GRASS_biomass(g),SEDGE_biomass(g),NoCov_Bl,NoCov_grass,NoCov_ERICA,brown.tot.density,brown.bl.density
+2022,Beans,Beans22,Cereal Rye,CTLPOST,CTL,CTL,na,na,Weedy,POST,101,obs1,B1,no,na,0,2sqm,98,92,5,10,77,4,2,0,98,0.94,4.01,25.21,0.323,0.299,0,4,2,77,124,67
+2022,Beans,Beans22,Cereal Rye,CTLPRE/POST,CTL,CTL,na,na,Weed free,PRE/POST,101,obs2,B1,yes,na,0,2sqm,98,92,8,49,36,15,7,0,115,0.172,4.14,27.12,0.852,0.65,0,15,7,36,55,39
+2022,Beans,Beans22,Cereal Rye,1-3 DAPPOST,1-3 DAP,0,21,Roll plant,Weedy,POST,102,obs3,B1,no,na,2397.696,2sqm,98,92,0,1,52,43,3,9,99,0,0.006,12.85,6.08,0.074,0.73,4,2,77,124,67
+2022,Beans,Beans22,Cereal Rye,1-3 DAPPRE/POST,1-3 DAP,0,21,Roll plant,Weed free,PRE/POST,102,obs4,B1,yes,na,2820.16,2sqm,98,92,1,0,2,17,1,0,21,0,0,2.102,1.09,0.035,0,15,7,36,55,39
+2022,Beans,Beans22,Cereal Rye,14-21 DPPPOST,14-21 DPP,-21,0,14-28 d pre-plant,Weedy,POST,103,obs5,B1,no,na,459.2,2sqm,98,92,6,12,38,67,1,13,124,0.243,1.66,7.26,3.07,0.111,1.9,4,2,77,124,67
+2022,Beans,Beans22,Cereal Rye,14-21 DPPPRE/POST,14-21 DPP,-21,0,14-28 d pre-plant,Weed free,PRE/POST,103,obs6,B1,yes,na,551.488,2sqm,98,92,1,2,11,39,2,0,55,0.007,0.173,6.56,2.35,0.066,0,15,7,36,55,39
+2022,Beans,Beans22,Cereal Rye,3-7 DPPPOST,3-7 DPP,-7,14,3-7 d pre-plant,Weedy,POST,104,obs7,B1,no,na,1305.472,2sqm,98,92,12,7,9,48,5,0,81,0.97,0.97,1.3,3.56,0.59,0,4,2,77,124,67
+2022,Beans,Beans22,Cereal Rye,3-7 DPPPRE/POST,3-7 DPP,-7,14,3-7 d pre-plant,Weed free,PRE/POST,104,obs8,B1,yes,na,1699.712,2sqm,98,92,4,0,1,8,7,0,20,3.28,0,0.032,0.158,1.36,0,15,7,36,55,39
+2022,Beans,Beans22,Cereal Rye,1-3 DAPPOST,1-3 DAP,0,21,Roll plant,Weedy,POST,201,obs9,B2,no,na,2316.16,2sqm,93,92,0,0,2,11,0,0,13,0,0,0.44,0.59,0,0,74,0,3,142,107
+2022,Beans,Beans22,Cereal Rye,1-3 DAPPRE/POST,1-3 DAP,0,21,Roll plant,Weed free,PRE/POST,201,obs10,B2,yes,na,1718.08,2sqm,93,92,9,1,0,22,3,3,35,0.91,0.56,0,5.72,0.21,0,18,3,1,24,16
+2022,Beans,Beans22,Cereal Rye,3-7 DPPPOST,3-7 DPP,-7,14,3-7 d pre-plant,Weedy,POST,202,obs11,B2,no,na,2010.176,2sqm,93,92,2,17,3,127,0,0,149,0.161,5.473,2.646,8.56,0,0,74,0,3,142,107
+2022,Beans,Beans22,Cereal Rye,3-7 DPPPRE/POST,3-7 DPP,-7,14,3-7 d pre-plant,Weed free,PRE/POST,202,obs12,B2,yes,na,1527.68,2sqm,93,92,1,1,2,35,0,0,39,1.57,0.204,0.476,2.87,0,0,18,3,1,24,16
+2022,Beans,Beans22,Cereal Rye,CTLPOST,CTL,CTL,na,na,Weedy,POST,203,obs13,B2,no,na,0,2sqm,93,92,1,15,3,74,0,0,93,0.027,23.87,4.55,5.1,0,0,74,0,3,142,107
+2022,Beans,Beans22,Cereal Rye,CTLPRE/POST,CTL,CTL,na,na,Weed free,PRE/POST,203,obs14,B2,yes,na,0,2sqm,93,92,4,4,1,18,3,0,30,0.656,0.85,0.095,3.19,0.22,0,18,3,1,24,16
+2022,Beans,Beans22,Cereal Rye,14-21 DPPPOST,14-21 DPP,-21,0,14-28 d pre-plant,Weedy,POST,204,obs15,B2,no,na,319.424,2sqm,93,92,0,2,4,107,29,0,142,0,1.19,2.84,12.67,4.17,0,74,0,3,142,107
+2022,Beans,Beans22,Cereal Rye,14-21 DPPPRE/POST,14-21 DPP,-21,0,14-28 d pre-plant,Weed free,PRE/POST,204,obs16,B2,yes,na,618.688,2sqm,93,92,3,0,0,16,5,0,24,3.22,0,0,4.08,0.49,0,18,3,1,24,16
+2022,Beans,Beans22,Cereal Rye,3-7 DPPPOST,3-7 DPP,-7,14,3-7 d pre-plant,Weedy,POST,301,obs17,B3,no,na,1397.312,2sqm,100,92,2,6,0,12,3,0,23,0.32,1.085,0,1.38,1.04,0,35,24,35,190,38
+2022,Beans,Beans22,Cereal Rye,3-7 DPPPRE/POST,3-7 DPP,-7,14,3-7 d pre-plant,Weed free,PRE/POST,301,obs18,B3,yes,na,527.296,2sqm,100,92,0,2,0,5,1,0,8,0,0.45,0,0.474,0.98,0,13,8,1,38,28
+2022,Beans,Beans22,Cereal Rye,14-21 DPPPOST,14-21 DPP,-21,0,14-28 d pre-plant,Weedy,POST,302,obs19,B3,no,na,558.656,2sqm,100,92,0,73,69,38,10,0,190,0,14.52,36,7.72,0.418,0,35,24,35,190,38
+2022,Beans,Beans22,Cereal Rye,14-21 DPPPRE/POST,14-21 DPP,-21,0,14-28 d pre-plant,Weed free,PRE/POST,302,obs20,B3,yes,na,435.008,2sqm,100,92,3,2,3,28,2,0,38,0,6.53,35.28,2.87,0.118,0,13,8,1,38,28
+2022,Beans,Beans22,Cereal Rye,1-3 DAPPOST,1-3 DAP,0,21,Roll plant,Weedy,POST,303,obs21,B3,no,na,3547.712,2sqm,100,92,13,4,1,28,0,0,46,2.499,0.76,0.078,3.09,0,0,35,24,35,190,38
+2022,Beans,Beans22,Cereal Rye,1-3 DAPPRE/POST,1-3 DAP,0,21,Roll plant,Weed free,PRE/POST,303,obs22,B3,yes,na,3651.2,2sqm,100,92,0,0,0,4,0,0,4,0,0,0,0.34,0,0,13,8,1,38,28
+2022,Beans,Beans22,Cereal Rye,CTLPOST,CTL,CTL,na,na,Weedy,POST,304,obs23,B3,no,na,0,2sqm,100,92,2,4,35,35,24,0,100,0.346,0.7,16.71,2.009,3.043,0,35,24,35,190,38
+2022,Beans,Beans22,Cereal Rye,CTLPRE/POST,CTL,CTL,na,na,Weed free,PRE/POST,304,obs24,B3,yes,na,0,2sqm,100,92,0,1,1,13,8,0,23,0,0.123,2.42,2.47,1.41,0,13,8,1,38,28
+2022,Beans,Beans22,Cereal Rye,CTLPOST,CTL,CTL,na,na,Weedy,POST,401,obs25,B4,no,na,0,2sqm,80,92,16,4,4,32,24,0,80,3.81,0.181,3.31,5.03,10.06,0,32,24,4,34,24
+2022,Beans,Beans22,Cereal Rye,CTLPRE/POST,CTL,CTL,na,na,Weed free,PRE/POST,401,obs26,B4,yes,na,0,2sqm,80,92,5,12,2,14,1,0,34,0.569,7.016,1.9,1.039,1.45,0,14,1,2,28,24
+2022,Beans,Beans22,Cereal Rye,1-3 DAPPOST,1-3 DAP,0,21,Roll plant,Weedy,POST,402,obs27,B4,no,na,3002.048,2sqm,80,92,4,1,1,12,4,0,22,1.182,1.01,0.027,1.94,0.16,0,32,24,4,34,24
+2022,Beans,Beans22,Cereal Rye,1-3 DAPPRE/POST,1-3 DAP,0,21,Roll plant,Weed free,PRE/POST,402,obs28,B4,yes,na,2862.72,2sqm,80,92,0,0,2,10,1,0,13,0,0,0.43,0.548,0.07,0,14,1,2,28,24
+2022,Beans,Beans22,Cereal Rye,14-21 DPPPOST,14-21 DPP,-21,0,14-28 d pre-plant,Weedy,POST,403,obs29,B4,no,na,505.792,2sqm,80,92,2,1,7,24,0,0,34,5.1,0.258,2.241,2.86,0,0,32,24,4,34,24
+2022,Beans,Beans22,Cereal Rye,14-21 DPPPRE/POST,14-21 DPP,-21,0,14-28 d pre-plant,Weed free,PRE/POST,403,obs30,B4,yes,na,560,2sqm,80,92,2,0,2,24,0,0,28,0.173,0,0.118,0.93,0,0,14,1,2,28,24
+2022,Beans,Beans22,Cereal Rye,3-7 DPPPOST,3-7 DPP,-7,14,3-7 d pre-plant,Weedy,POST,404,obs31,B4,no,na,2007.488,2sqm,80,92,4,2,0,13,5,0,24,0.5,0.056,0,0.483,0.34,0,32,24,4,34,24
+2022,Beans,Beans22,Cereal Rye,3-7 DPPPRE/POST,3-7 DPP,-7,14,3-7 d pre-plant,Weed free,PRE/POST,404,obs32,B4,yes,na,2284.8,2sqm,80,92,0,0,1,3,2,0,6,0,0,0.167,0.356,0.145,0,14,1,2,28,24
+2022,Beans,Beans22,Cereal Rye,14-21 DPPPOST,14-21 DPP,-21,0,14-28 d pre-plant,Weedy,POST,501,obs33,B5,no,na,239.68,2sqm,89,92,8,6,6,28,62,0,110,0.188,0.399,3.58,2.1,6.56,0,29,15,30,110,28
+2022,Beans,Beans22,Cereal Rye,14-21 DPPPRE/POST,14-21 DPP,-21,0,14-28 d pre-plant,Weed free,PRE/POST,501,obs34,B5,yes,na,443.52,2sqm,89,92,3,10,6,23,2,0,44,0.85,0.86,1.353,4.62,0.083,0,11,1,7,44,23
+2022,Beans,Beans22,Cereal Rye,1-3 DAPPOST,1-3 DAP,0,21,Roll plant,Weedy,POST,502,obs35,B5,no,na,3579.52,2sqm,89,92,8,10,3,54,1,0,76,1.36,1.2,1.05,1.21,0,0,29,15,30,110,28
+2022,Beans,Beans22,Cereal Rye,1-3 DAPPRE/POST,1-3 DAP,0,21,Roll plant,Weed free,PRE/POST,502,obs36,B5,yes,na,2732.352,2sqm,89,92,9,7,4,11,0,0,31,1.614,0.44,0.136,0.6,0,0,11,1,7,44,23
+2022,Beans,Beans22,Cereal Rye,CTLPOST,CTL,CTL,na,na,Weedy,POST,503,obs37,B5,no,na,0,2sqm,89,92,6,9,30,29,15,0,89,1.394,1.412,24.27,2.666,3.353,0,29,15,30,110,28
+2022,Beans,Beans22,Cereal Rye,CTLPRE/POST,CTL,CTL,na,na,Weed free,PRE/POST,503,obs38,B5,yes,na,0,2sqm,89,92,6,5,7,11,1,0,30,0.356,0.636,2.31,4.459,0.075,0,11,1,7,44,23
+2022,Beans,Beans22,Cereal Rye,3-7 DPPPOST,3-7 DPP,-7,14,3-7 d pre-plant,Weedy,POST,504,obs39,B5,no,na,1944.32,2sqm,89,92,4,9,3,27,17,0,60,0.721,1.552,0.622,2.63,3.45,0,29,15,30,110,28
+2022,Beans,Beans22,Cereal Rye,3-7 DPPPRE/POST,3-7 DPP,-7,14,3-7 d pre-plant,Weed free,PRE/POST,504,obs40,B5,yes,na,2338.56,2sqm,89,92,9,4,0,19,10,0,42,4.36,1.27,0,1.071,1.92,0,11,1,7,44,23
+2021,Corn,Corn21,Cereal Rye ,CTLPOST,CTL,CTL,na,na,Weedy,POST,101,obs41,B1,no,na,0,2sqm,18,48,na,na,na,17,1,0,18,na,na,na,0.78,0,0,17,1,na,8,8
+2021,Corn,Corn21,Cereal Rye,CTLPRE/POST,CTL,CTL,na,na,Weed free,PRE/POST,101,obs42,B1,yes,121.4,0,2sqm,18,48,na,na,na,10,0,0,10,na,na,na,0.4,0,0,10,0,na,0,0
+2021,Corn,Corn21,Cereal Rye,1-3 DAPPOST,1-3 DAP,0,21,Roll plant,Weedy,POST,102,obs43,B1,no,na,5375,2sqm,18,48,na,na,na,21,0,0,21,na,na,na,0.54,0,0,17,1,na,8,8
+2021,Corn,Corn21,Cereal Rye,1-3 DAPPRE/POST,1-3 DAP,0,21,Roll plant,Weed free,PRE/POST,102,obs44,B1,yes,130.8,5375,2sqm,18,48,na,na,na,0,1,0,1,na,na,na,0,0.25,0,10,0,na,0,0
+2021,Corn,Corn21,Cereal Rye,14-21 DPPPOST,14-21 DPP,-21,0,14-28 d pre-plant,Weedy,POST,103,obs45,B1,no,na,1628,2sqm,18,48,na,na,na,8,0,0,8,na,na,na,0.07,0,0,17,1,na,8,8
+2021,Corn,Corn21,Cereal Rye,14-21 DPPPRE/POST,14-21 DPP,-21,0,14-28 d pre-plant,Weed free,PRE/POST,103,obs46,B1,yes,139.2,1628,2sqm,18,48,na,na,na,0,0,0,0,na,na,na,0,0,0,10,0,na,0,0
+2021,Corn,Corn21,Cereal Rye ,3-7 DPPPOST,3-7 DPP,-7,14,3-7 d pre-plant,Weedy,POST,104,obs47,B1,no,na,2901,2sqm,18,48,na,na,na,4,7,0,11,na,na,na,0.05,0.18,0,17,1,na,8,8
+2021,Corn,Corn21,Cereal Rye,3-7 DPPPRE/POST,3-7 DPP,-7,14,3-7 d pre-plant,Weed free,PRE/POST,104,obs48,B1,yes,146.7,2901,2sqm,18,48,na,na,na,0,0,0,0,na,na,na,0,0,0,10,0,na,0,0
+2021,Corn,Corn21,Cereal Rye,1-3 DAPPOST,1-3 DAP,0,21,Roll plant,Weedy,POST,201,obs49,B2,no,na,5882,2sqm,70,48,na,na,na,4,5,0,9,na,na,na,0.09,0.11,0,70,0,na,62,57
+2021,Corn,Corn21,Cereal Rye,1-3 DAPPRE/POST,1-3 DAP,0,21,Roll plant,Weed free,PRE/POST,201,obs50,B2,yes,129.2,5882,2sqm,70,48,na,na,na,0,0,0,0,na,na,na,0,0,0,0,0,na,0,0
+2021,Corn,Corn21,Cereal Rye,3-7 DPPPOST,3-7 DPP,-7,14,3-7 d pre-plant,Weedy,POST,202,obs51,B2,no,na,3577,2sqm,70,48,na,na,na,38,1,0,39,na,na,na,0.63,0,0,70,0,na,62,57
+2021,Corn,Corn21,Cereal Rye ,3-7 DPPPRE/POST,3-7 DPP,-7,14,3-7 d pre-plant,Weed free,PRE/POST,202,obs52,B2,yes,134.9,3577,2sqm,70,48,na,na,na,0,0,0,0,na,na,na,0,0,0,0,0,na,0,0
+2021,Corn,Corn21,Cereal Rye,CTLPOST,CTL,CTL,na,na,Weedy,POST,203,obs53,B2,no,na,0,2sqm,70,48,na,na,na,70,0,0,70,na,na,na,17.46,0,0,70,0,na,62,57
+2021,Corn,Corn21,Cereal Rye,CTLPRE/POST,CTL,CTL,na,na,Weed free,PRE/POST,203,obs54,B2,yes,102.4,0,2sqm,70,48,na,na,na,0,0,0,0,na,na,na,0,0,0,0,0,na,0,0
+2021,Corn,Corn21,Cereal Rye,14-21 DPPPOST,14-21 DPP,-21,0,14-28 d pre-plant,Weedy,POST,204,obs55,B2,no,na,1628,2sqm,70,48,na,na,na,57,5,0,62,na,na,na,1.14,0.08,0,70,0,na,62,57
+2021,Corn,Corn21,Cereal Rye,14-21 DPPPRE/POST,14-21 DPP,-21,0,14-28 d pre-plant,Weed free,PRE/POST,204,obs56,B2,yes,144.1,1628,2sqm,70,48,na,na,na,0,0,0,0,na,na,na,0,0,0,0,0,na,0,0
+2021,Corn,Corn21,Cereal Rye,3-7 DPPPOST,3-7 DPP,-7,14,3-7 d pre-plant,Weedy,POST,301,obs57,B3,no,na,3488,2sqm,53,48,na,na,na,19,0,2,21,na,na,na,2.26,0,0.3,52,1,na,54,50
+2021,Corn,Corn21,Cereal Rye ,3-7 DPPPRE/POST,3-7 DPP,-7,14,3-7 d pre-plant,Weed free,PRE/POST,301,obs58,B3,yes,128,3488,2sqm,53,48,na,na,na,0,0,0,0,na,na,na,0,0,0,0,0,na,0,0
+2021,Corn,Corn21,Cereal Rye ,14-21 DPPPOST,14-21 DPP,-21,0,14-28 d pre-plant,Weedy,POST,302,obs59,B3,no,na,1673,2sqm,53,48,na,na,na,50,4,0,54,na,na,na,1.21,0.06,0,52,1,na,54,50
+2021,Corn,Corn21,Cereal Rye,14-21 DPPPRE/POST,14-21 DPP,-21,0,14-28 d pre-plant,Weed free,PRE/POST,302,obs60,B3,yes,135.6,1673,2sqm,53,48,na,na,na,0,0,0,0,na,na,na,0,0,0,0,0,na,0,0
+2021,Corn,Corn21,Cereal Rye,1-3 DAPPOST,1-3 DAP,0,21,Roll plant,Weedy,POST,303,obs61,B3,no,na,4966,2sqm,53,48,na,na,na,4,2,0,6,na,na,na,0.03,0.21,0,52,1,na,54,50
+2021,Corn,Corn21,Cereal Rye,1-3 DAPPRE/POST,1-3 DAP,0,21,Roll plant,Weed free,PRE/POST,303,obs62,B3,yes,105.8,4966,2sqm,53,48,na,na,na,0,0,0,0,na,na,na,0,0,0,0,0,na,0,0
+2021,Corn,Corn21,Cereal Rye,CTLPOST,CTL,CTL,na,na,Weedy,POST,304,obs63,B3,no,na,0,2sqm,53,48,na,na,na,52,1,0,53,na,na,na,15.31,0.47,0,52,1,na,54,50
+2021,Corn,Corn21,Cereal Rye,CTLPRE/POST,CTL,CTL,na,na,Weed free,PRE/POST,304,obs64,B3,yes,140.8,0,2sqm,53,48,na,na,na,0,0,0,0,na,na,na,0,0,0,0,0,na,0,0
+2021,Corn,Corn21,Cereal Rye ,CTLPOST,CTL,CTL,na,na,Weedy,POST,401,obs65,B4,no,na,0,2sqm,33,48,na,na,na,29,4,0,33,na,na,na,3.63,0.5,0,29,4,na,34,27
+2021,Corn,Corn21,Cereal Rye,CTLPRE/POST,CTL,CTL,na,na,Weed free,PRE/POST,401,obs66,B4,yes,130.2,0,2sqm,33,48,na,na,na,0,0,0,0,na,na,na,0,0,0,0,0,na,2,2
+2021,Corn,Corn21,Cereal Rye,1-3 DAPPOST,1-3 DAP,0,21,Roll plant,Weedy,POST,402,obs67,B4,no,na,5313,2sqm,33,48,na,na,na,6,0,0,6,na,na,na,0.12,0,0,29,4,na,34,27
+2021,Corn,Corn21,Cereal Rye,1-3 DAPPRE/POST,1-3 DAP,0,21,Roll plant,Weed free,PRE/POST,402,obs68,B4,yes,138.6,5313,2sqm,33,48,na,na,na,0,0,0,0,na,na,na,0,0,0,0,0,na,2,2
+2021,Corn,Corn21,Cereal Rye,14-21 DPPPOST,14-21 DPP,-21,0,14-28 d pre-plant,Weedy,POST,403,obs69,B4,no,na,1699,2sqm,33,48,na,na,na,27,2,5,34,na,na,na,0.89,0.03,0.96,29,4,na,34,27
+2021,Corn,Corn21,Cereal Rye,14-21 DPPPRE/POST,14-21 DPP,-21,0,14-28 d pre-plant,Weed free,PRE/POST,403,obs70,B4,yes,153.9,1699,2sqm,33,48,na,na,na,2,0,0,2,na,na,na,0,0,0,0,0,na,2,2
+2021,Corn,Corn21,Cereal Rye,3-7 DPPPOST,3-7 DPP,-7,14,3-7 d pre-plant,Weedy,POST,404,obs71,B4,no,na,2536,2sqm,33,48,na,na,na,15,8,0,23,na,na,na,0.26,0.31,0,29,4,na,34,27
+2021,Corn,Corn21,Cereal Rye ,3-7 DPPPRE/POST,3-7 DPP,-7,14,3-7 d pre-plant,Weed free,PRE/POST,404,obs72,B4,yes,153.1,2536,2sqm,33,48,na,na,na,0,0,0,0,na,na,na,0,0,0,0,0,na,2,2
+2021,Corn,Corn21,Cereal Rye,14-21 DPPPOST,14-21 DPP,-21,0,14-28 d pre-plant,Weedy,POST,501,obs73,B5,no,na,2456,2sqm,62,48,na,na,na,2,0,0,2,na,na,na,0.18,0,0,62,0,na,2,2
+2021,Corn,Corn21,Cereal Rye,14-21 DPPPRE/POST,14-21 DPP,-21,0,14-28 d pre-plant,Weed free,PRE/POST,501,obs74,B5,yes,151.4,2456,2sqm,62,48,na,na,na,1,0,0,1,na,na,na,0,0,0,0,1,na,1,1
+2021,Corn,Corn21,Cereal Rye ,1-3 DAPPOST,1-3 DAP,0,21,Roll plant,Weedy,POST,502,obs75,B5,no,na,4928,2sqm,62,48,na,na,na,3,1,0,4,na,na,na,0.05,0.75,0,62,0,na,2,2
+2021,Corn,Corn21,Cereal Rye,1-3 DAPPRE/POST,1-3 DAP,0,21,Roll plant,Weed free,PRE/POST,502,obs76,B5,yes,132.8,4928,2sqm,62,48,na,na,na,2,0,0,2,na,na,na,0,0,0,0,1,na,1,1
+2021,Corn,Corn21,Cereal Rye,CTLPOST,CTL,CTL,na,na,Weedy,POST,503,obs77,B5,no,na,0,2sqm,62,48,na,na,na,62,0,0,62,na,na,na,9.63,0,0,62,0,na,2,2
+2021,Corn,Corn21,Cereal Rye,CTLPRE/POST,CTL,CTL,na,na,Weed free,PRE/POST,503,obs78,B5,yes,139.2,0,2sqm,62,48,na,na,na,0,1,0,1,na,na,na,0,0,0,0,1,na,1,1
+2021,Corn,Corn21,Cereal Rye,3-7 DPPPOST,3-7 DPP,-7,14,3-7 d pre-plant,Weedy,POST,504,obs79,B5,no,na,2652,2sqm,62,48,na,na,na,9,17,0,26,na,na,na,0.33,0.62,0,62,0,na,2,2
+2021,Corn,Corn21,Cereal Rye,3-7 DPPPRE/POST,3-7 DPP,-7,14,3-7 d pre-plant,Weed free,PRE/POST,504,obs80,B5,yes,141.8,2652,2sqm,62,48,na,na,na,0,0,0,0,na,na,na,0,0,0,0,1,na,1,1
+2022,Corn,Corn22,Cereal Rye,CTLPOST,CTL,CTL,na,na,Weedy,POST,101,obs81,B1,no,na,0,2sqm,60,68,4,1,11,41,3,60,60,0.05,0.12,7.38,3.29,0.052,0,41,3,1,91,27
+2022,Corn,Corn22,Cereal Rye,CTLPRE/POST,CTL,CTL,na,na,Weed free,PRE/POST,101,obs82,B1,yes,112,0,2sqm,60,68,0,3,1,1,24,8,29,0,5.06,0.13,0.24,5.53,0,1,24,3,97,2
+2022,Corn,Corn22,Cereal Rye,1-3 DAPPOST,1-3 DAP,0,21,Roll plant,Weedy,POST,102,obs83,B1,no,na,5334,2sqm,60,68,17,0,4,11,116,35,148,0.54,0,0.05,0.024,5.7,0,41,3,1,91,27
+2022,Corn,Corn22,Cereal Rye,1-3 DAPPRE/POST,1-3 DAP,0,21,Roll plant,Weed free,PRE/POST,102,obs84,B1,yes,123.4,5334,2sqm,60,68,1,0,0,1,87,5,89,0.13,0,0,0.002,2.45,0,1,24,3,97,2
+2022,Corn,Corn22,Cereal Rye,14-21 DPPPOST,14-21 DPP,-21,0,14-28 d pre-plant,Weedy,POST,103,obs85,B1,no,na,1292,2sqm,60,68,6,0,6,27,52,42,91,4.01,0,1.6,1.1,11.31,0,41,3,1,91,27
+2022,Corn,Corn22,Cereal Rye,14-21 DPPPRE/POST,14-21 DPP,-21,0,14-28 d pre-plant,Weed free,PRE/POST,103,obs86,B1,yes,134.4,1292,2sqm,60,68,8,0,0,2,87,13,97,0.269,0,0,0.008,3.78,0,1,24,3,97,2
+2022,Corn,Corn22,Cereal Rye,3-7 DPPPOST,3-7 DPP,-7,14,3-7 d pre-plant,Weedy,POST,104,obs87,B1,no,na,3163,2sqm,60,68,29,0,9,13,65,54,116,4.73,0,0.166,0.516,6.03,0,41,3,1,91,27
+2022,Corn,Corn22,Cereal Rye,3-7 DPPPRE/POST,3-7 DPP,-7,14,3-7 d pre-plant,Weed free,PRE/POST,104,obs88,B1,yes,123.9,3163,2sqm,60,68,0,1,0,2,23,6,26,0,0.008,0,0.013,1.48,0,1,24,3,97,2
+2022,Corn,Corn22,Cereal Rye,1-3 DAPPOST,1-3 DAP,0,21,Roll plant,Weedy,POST,201,obs89,B2,no,na,4741,2sqm,41,68,1,5,1,4,1,14,12,0.001,0.235,0.032,0.065,0.011,0,6,8,14,127,46
+2022,Corn,Corn22,Cereal Rye,1-3 DAPPRE/POST,1-3 DAP,0,21,Roll plant,Weed free,PRE/POST,201,obs90,B2,yes,119.3,4741,2sqm,41,68,0,0,0,0,6,3,6,0,0,0,0,0.121,0,14,29,0,10,2
+2022,Corn,Corn22,Cereal Rye,3-7 DPPPOST,3-7 DPP,-7,14,3-7 d pre-plant,Weedy,POST,202,obs91,B2,no,na,2695,2sqm,41,68,4,0,1,5,22,13,32,0.313,0,0.21,0.078,5.8,0,6,8,14,127,46
+2022,Corn,Corn22,Cereal Rye,3-7 DPPPRE/POST,3-7 DPP,-7,14,3-7 d pre-plant,Weed free,PRE/POST,202,obs92,B2,yes,133.9,2695,2sqm,41,68,0,0,0,0,6,3,6,0,0,0,0,0.77,0,14,29,0,10,2
+2022,Corn,Corn22,Cereal Rye,CTLPOST,CTL,CTL,na,na,Weedy,POST,203,obs93,B2,no,na,0,2sqm,41,68,2,14,11,6,8,36,41,0.066,3.71,6.51,1.54,2.57,0,6,8,14,127,46
+2022,Corn,Corn22,Cereal Rye,CTLPRE/POST,CTL,CTL,na,na,Weed free,PRE/POST,203,obs94,B2,yes,139.9,0,2sqm,41,68,0,0,0,14,29,17,43,0,0,0,1.04,9.01,0,14,29,0,10,2
+2022,Corn,Corn22,Cereal Rye,14-21 DPPPOST,14-21 DPP,-21,0,14-28 d pre-plant,Weedy,POST,204,obs95,B2,no,na,1090,2sqm,41,68,1,3,7,46,70,60,127,0.073,0.76,4.03,2.7,14.87,0,6,8,14,127,46
+2022,Corn,Corn22,Cereal Rye,14-21 DPPPRE/POST,14-21 DPP,-21,0,14-28 d pre-plant,Weed free,PRE/POST,204,obs96,B2,yes,131,1090,2sqm,41,68,0,0,0,2,8,5,10,0,0,0,0,1.24,0,14,29,0,10,2
+2022,Corn,Corn22,Cereal Rye,3-7 DPPPOST,3-7 DPP,-7,14,3-7 d pre-plant,Weedy,POST,301,obs97,B3,no,na,2500,2sqm,72,68,2,3,0,14,0,22,19,0.484,1.187,0,0.672,0,0,22,34,3,66,25
+2022,Corn,Corn22,Cereal Rye,3-7 DPPPRE/POST,3-7 DPP,-7,14,3-7 d pre-plant,Weed free,PRE/POST,301,obs98,B3,yes,134.2,2500,2sqm,72,68,0,0,0,2,1,5,3,0,0,0,0.017,0.07,0,0,17,0,25,0
+2022,Corn,Corn22,Cereal Rye,14-21 DPPPOST,14-21 DPP,-21,0,14-28 d pre-plant,Weedy,POST,302,obs99,B3,no,na,920,2sqm,72,68,8,7,1,25,25,44,66,1.13,0.694,0.068,1.28,11.44,0,22,34,3,66,25
+2022,Corn,Corn22,Cereal Rye,14-21 DPPPRE/POST,14-21 DPP,-21,0,14-28 d pre-plant,Weed free,PRE/POST,302,obs100,B3,yes,124.1,920,2sqm,72,68,1,0,0,0,24,4,25,0.015,0,0,0,10.98,0,0,17,0,25,0
+2022,Corn,Corn22,Cereal Rye,1-3 DAPPOST,1-3 DAP,0,21,Roll plant,Weedy,POST,303,obs101,B3,no,na,5456,2sqm,72,68,1,4,0,3,25,11,33,0,0.11,0,0.24,2.63,0,22,34,3,66,25
+2022,Corn,Corn22,Cereal Rye,1-3 DAPPRE/POST,1-3 DAP,0,21,Roll plant,Weed free,PRE/POST,303,obs102,B3,yes,115.6,5456,2sqm,72,68,0,0,0,0,12,3,12,0,0,0,0,0.34,0,0,17,0,25,0
+2022,Corn,Corn22,Cereal Rye,CTLPOST,CTL,CTL,na,na,Weedy,POST,304,obs103,B3,no,na,0,2sqm,72,68,2,3,11,22,34,41,72,0.179,0.41,8.39,1.59,12.19,0,22,34,3,66,25
+2022,Corn,Corn22,Cereal Rye,CTLPRE/POST,CTL,CTL,na,na,Weed free,PRE/POST,304,obs104,B3,yes,80.8,0,2sqm,72,68,0,0,0,0,17,3,17,0,0,0,0,3.12,0,0,17,0,25,0
+2022,Corn,Corn22,Cereal Rye,CTLPOST,CTL,CTL,na,na,Weedy,POST,401,obs105,B4,no,na,0,2sqm,74,68,0,6,41,10,17,60,74,0,0.204,22.08,1.37,1.84,0,10,17,6,56,23
+2022,Corn,Corn22,Cereal Rye,CTLPRE/POST,CTL,CTL,na,na,Weed free,PRE/POST,401,obs106,B4,yes,139,0,2sqm,74,68,0,2,1,6,30,12,39,0,2.43,0.062,2.41,2.87,0,6,30,2,41,1
+2022,Corn,Corn22,Cereal Rye,1-3 DAPPOST,1-3 DAP,0,21,Roll plant,Weedy,POST,402,obs107,B4,no,na,6285,2sqm,74,68,1,6,3,1,36,14,47,0.027,0.054,0.159,0.072,1.2,0.086,10,17,6,56,23
+2022,Corn,Corn22,Cereal Rye,1-3 DAPPRE/POST,1-3 DAP,0,21,Roll plant,Weed free,PRE/POST,402,obs108,B4,yes,138.8,6285,2sqm,74,68,1,1,0,0,16,5,18,0.006,0.002,0,0,0.6,0,6,30,2,41,1
+2022,Corn,Corn22,Cereal Rye,14-21 DPPPOST,14-21 DPP,-21,0,14-28 d pre-plant,Weedy,POST,403,obs109,B4,no,na,1368,2sqm,74,68,11,4,3,23,15,44,56,4.19,0.72,1.99,3.75,3.09,0,10,17,6,56,23
+2022,Corn,Corn22,Cereal Rye,14-21 DPPPRE/POST,14-21 DPP,-21,0,14-28 d pre-plant,Weed free,PRE/POST,403,obs110,B4,yes,na,1368,2sqm,74,68,0,0,0,1,40,4,41,0,0,0,0.004,2.72,0,6,30,2,41,1
+2022,Corn,Corn22,Cereal Rye,3-7 DPPPOST,3-7 DPP,-7,14,3-7 d pre-plant,Weedy,POST,404,obs111,B4,no,na,2748,2sqm,74,68,2,0,13,7,40,25,62,0.132,0,0.95,0.144,4.4,0,10,17,6,56,23
+2022,Corn,Corn22,Cereal Rye,3-7 DPPPRE/POST,3-7 DPP,-7,14,3-7 d pre-plant,Weed free,PRE/POST,404,obs112,B4,yes,na,2748,2sqm,74,68,1,0,0,0,17,4,18,0.01,0,0,0,2.46,0,6,30,2,41,1
+2022,Corn,Corn22,Cereal Rye,14-21 DPPPOST,14-21 DPP,-21,0,14-28 d pre-plant,Weedy,POST,501,obs113,B5,no,na,1158,2sqm,92,68,12,64,7,4,10,90,97,1.55,8.6,5.74,1,4.21,0,25,36,20,97,4
+2022,Corn,Corn22,Cereal Rye,14-21 DPPPRE/POST,14-21 DPP,-21,0,14-28 d pre-plant,Weed free,PRE/POST,501,obs114,B5,yes,136.5,1158,2sqm,92,68,2,3,0,0,3,8,8,0.005,0.038,0,0,0.202,0,0,14,0,8,0
+2022,Corn,Corn22,Cereal Rye,1-3 DAPPOST,1-3 DAP,0,21,Roll plant,Weedy,POST,502,obs115,B5,no,na,5638,2sqm,92,68,1,3,1,4,38,12,47,0.081,0.034,0.016,0.054,1.69,0.64,25,36,20,97,4
+2022,Corn,Corn22,Cereal Rye,1-3 DAPPRE/POST,1-3 DAP,0,21,Roll plant,Weed free,PRE/POST,502,obs116,B5,yes,119.3,5638,2sqm,92,68,0,1,0,0,9,4,10,0,0.002,0,0,0.15,0,0,14,0,8,0
+2022,Corn,Corn22,Cereal Rye,CTLPOST,CTL,CTL,na,na,Weedy,POST,503,obs117,B5,no,na,0,2sqm,92,68,5,20,6,25,36,59,92,1.12,7.02,16.61,2.79,7.28,0,25,36,20,97,4
+2022,Corn,Corn22,Cereal Rye,CTLPRE/POST,CTL,CTL,na,na,Weed free,PRE/POST,503,obs118,B5,yes,91.8,0,2sqm,92,68,0,0,0,0,14,3,14,0,0,0,0,2.8,0,0,14,0,8,0
+2022,Corn,Corn22,Cereal Rye,3-7 DPPPOST,3-7 DPP,-7,14,3-7 d pre-plant,Weedy,POST,504,obs119,B5,no,na,2678,2sqm,92,68,9,10,5,4,23,31,51,1.5,1.12,1.39,0.063,4.96,0,25,36,20,97,4
+2022,Corn,Corn22,Cereal Rye,3-7 DPPPRE/POST,3-7 DPP,-7,14,3-7 d pre-plant,Weed free,PRE/POST,504,obs120,B5,yes,na,2678,2sqm,92,68,1,0,0,0,15,4,16,0.028,0,0,0,1.23,0,0,14,0,8,0
