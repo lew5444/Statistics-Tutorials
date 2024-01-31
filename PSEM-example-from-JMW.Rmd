@@ -5,7 +5,97 @@ date: "2024-01-31"
 output: 
   html_document: 
     theme: yeti
+    toc: true
+    highlight: tango
 ---
 
-This is a document with a PSEM example from John M. Wallace
+***This is a document with a PSEM example from John M. Wallace***
+
+# Basic overview of the method:
+
+**PIECEWISE SEM**: Fit models for each response and then piece together inferences using tests of direct separation by fitting missing relationships to test whether path coefficients are significantly different from zero. 
+
+*Chi-square test statistic* compares observed vs. estimated variance-covariance matrices. Significance indicates that missing information (i.e., path) would improve model fit.
+
+
+**STEP 1**: Local estimation of models (hierarchcial structure, generalized linear, etc.)
+
+**STEP 2**: Structured hypothesis - Identify set of missing relationships using "basis set"
+
+**STEP 3**: Test whether effect is not significantly different from zero (p > 0.05) when controlling for covariates already specified in model; i.e, the test considers the partial effect of one variable on response if either or both are already connect to other variables in the model
+
+**STEP 4**: Identify best fit model & report path diagram w/ standardized path coefficients, significance-levels, marginal & conditional r2, correlation coefficients
+
+**STEP 5**: Use SEM to extract partial residuals (effects) and model separately when appropriate
+
+
+## Data wrangling
+
+```{r}
+psa<-read.csv("https://raw.githubusercontent.com/lew5444/Statistics-Tutorials/main/PSA-CE2-Weeds-Yield-Rye-Compiled.csv", na.strings='na')
+psa$Rye.kgha <- as.integer(psa$Rye.kgha)
+psa$CC.win <- as.integer(psa$CC.win) # create continuous variable for "CC termination window; 0 to 21 days"
+psa$RR.tot <- psa$Total_density/psa$UTC.tot.density.rep # create response ratio standardized to no cover control at replicate level
+psa$LRR.tot <- log((psa$Total_density/psa$UTC.tot.density.rep)+0.01) # log response ratio
+psa <- subset(psa, Herb == "POST")
+psa <- subset(psa, Crop == "Corn"|Crop == "Beans")
+psa <- subset(psa, CC == "1-3 DAP"|CC == "14-21 DPP"|CC == "3-7 DPP")
+```
+
+
+## **Step 1: Local Estimation:** ***Model 1*** *cover crop response to planting date*
+
+1.Inspect univariate statistics
+```{r include=FALSE}
+library(tidyverse)
+```
+
+*check data by using summary (ie length is right, no missing data)*
+
+```{r warning=FALSE}
+summary <- psa %>% # name new dataset (summary) and call raw data set to summarize (data)
+  group_by (CC, CC.win, CropYear, Block) %>% # identify explanatory variables you want to summarize over
+  summarise_at(vars(Rye.kgha), funs(mean, length)) # identify predictor variables (can multiple) and type of summary stat
+print.data.frame(summary) # output summary table
+```
+
+2a. LME Regression (check homogeneity of variance)
+
+*check assumptions of normaility and homogeneity to see if you need to transform data*
+```{r include=FALSE}
+library(lme4)
+```
+
+```{r}
+m1 <- lmer(Rye.kgha ~ CC.win + (1|CropYear), data = psa, na.action = na.omit) 
+plot(m1) 
+m2 <- lmer(log(Rye.kgha) ~ CC.win + (1|CropYear), data = psa, na.action = na.omit)
+plot(m2)  # inspect residuals to inspect homogeneity of variance (choose best fit)
+anova (m1, m2)
+```
+
+2b. LME Regression (random intercept model vs. random intercept/slope model)
+```{r}
+m1 <- lmer(log(Rye.kgha) ~ CC.win + (1|CropYear), data = psa, na.action = na.omit) # Random intercept model
+m2 <- lmer(log(Rye.kgha) ~ CC.win + (CC.win|CropYear), data = psa, na.action = na.omit) # Random intercept and slope model
+anova(m1, m2) # check AICs
+```
+
+3.Extract test-statistics and parameter estimates of best fit model
+```{r}
+m0 <- lmer(log(Rye.kgha) ~ (CC.win|CropYear), data = psa, na.action = na.omit) 
+m1 <- lmer(log(Rye.kgha) ~ CC.win + (CC.win|CropYear), data = psa, na.action = na.omit)
+plot(m1)  # inspect residuals to inspect homogeneity of variance (choose best fit)
+summary(m1) # inspect parameter estimates
+anova(m0, m1) # model significance: extract Wald Chi Sq & p-value
+library(piecewiseSEM) # package to extract marginal & conditional r2 values
+rsquared(m1, method=NULL) # use to extract conditional r2 value 
+```
+
+
+`rsquared()` produces two $R^{2}$ values: marginal and conditional
+
+marginal $R^{2}$ tells you what proportion of the variance is explained by fixed effects
+
+conditional $R^{2}$ tells you the proportion of variance is explained by both random and fixed effects together. What's left over is the residual error
 
